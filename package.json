@@ -4,8 +4,8 @@
   "description": "My first API",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "prod": "npm server.js"
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
   },
   "author": "Nightmare Dani",
   "license": "ISC",
