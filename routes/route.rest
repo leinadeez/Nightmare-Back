@@ -1,0 +1,30 @@
+GET http://localhost:3000/posts
+
+###
+
+GET http://localhost:3000/posts/5e2729fccc78ed101c660b88
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "Nosso segundo post",
+  "subtitle": "Onde falamos tudo no plural majestático",
+  "author": "Sua Majestade, Daniela Leina",
+  "content": "Estamos cansadas e queremos ir para casa brincar com nossos gatos"
+}
+
+###
+
+DELETE http://localhost:3000/posts/5e2729fccc78ed101c660b88
+
+###
+
+PATCH http://localhost:3000/posts/5e2729fccc78ed101c660b88
+Content-Type: application/json
+
+{
+  "author": "Daniela Leina"
+}
