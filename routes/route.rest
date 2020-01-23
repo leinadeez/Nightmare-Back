@@ -28,3 +28,27 @@ Content-Type: application/json
 {
   "author": "Daniela Leina"
 }
+
+###
+
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/leinadeez
+Content-Type: application/json
+
+{
+  "username": "leinadeez",
+  "password": "12345678"
+}
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "leinadeez",
+  "password": "12345678"
+}
